@@ -169,7 +169,7 @@ main.page-wrap .wrapper {
 ----------------------------------*/
 
 nav.pagination {
-	width: 100%;
+	width: calc(100% - 300px);
 	right: 0px;
 	height: 60px;
 	padding: 10px 0%;
@@ -177,6 +177,7 @@ nav.pagination {
 	background-color: #efefef;
 	border-top: 1px solid #E7E9EC;
 	position: absolute;
+	right: 0px;
 }
 
 nav.pagination p.page-number{
@@ -184,7 +185,7 @@ nav.pagination p.page-number{
 	text-align: center;
 	line-height: 29px;
 	position: absolute;
-	left: calc( 50% - 15px );
+	right: 50%
 }
 
 nav.pagination .older-posts {
@@ -237,6 +238,25 @@ nav.pagination a:hover {
 
 	.sidebar .info-container {
 		width: 250px !important;
+	}
+
+	nav.pagination {
+		width: 100%;
+		right: 0px;
+		height: 60px;
+		padding: 10px 0%;
+		color: #888888;
+		background-color: #efefef;
+		border-top: 1px solid #E7E9EC;
+		position: absolute;
+	}
+
+	nav.pagination p.page-number{
+		width: 30px;
+		text-align: center;
+		line-height: 29px;
+		position: absolute;
+		left: calc( 50% - 15px );
 	}
 }
 
@@ -301,6 +321,25 @@ nav.pagination a:hover {
 		text-align: center;
 		margin-left: 220px;
 	}
+
+	nav.pagination {
+		width: 100%;
+		right: 0px;
+		height: 60px;
+		padding: 10px 0%;
+		color: #888888;
+		background-color: #efefef;
+		border-top: 1px solid #E7E9EC;
+		position: absolute;
+	}
+
+	nav.pagination p.page-number{
+		width: 30px;
+		text-align: center;
+		line-height: 29px;
+		position: absolute;
+		left: calc( 50% - 15px );
+	}
 }
 
 @media (max-width: 480px) {
@@ -322,5 +361,24 @@ nav.pagination a:hover {
 		padding: 0px 0%;
 		text-align: center;
 		margin-left: 180px;
+	}
+
+	nav.pagination {
+		width: 100%;
+		right: 0px;
+		height: 60px;
+		padding: 10px 0%;
+		color: #888888;
+		background-color: #efefef;
+		border-top: 1px solid #E7E9EC;
+		position: absolute;
+	}
+
+	nav.pagination p.page-number{
+		width: 30px;
+		text-align: center;
+		line-height: 29px;
+		position: absolute;
+		left: calc( 50% - 15px );
 	}
 }
