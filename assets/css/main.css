@@ -71,13 +71,13 @@ main.page-wrap .wrapper {
 	color: #333;
 }
 
-.post-excerpt {
+.post-excerpt, .post-content {
 	color: #777;
 	font-size: 14px;
 	line-height: 1.64;
 }
 
-.post-excerpt img {
+.post-excerpt img, .post-content img {
 	width: 100%;
 }
 
@@ -95,6 +95,11 @@ main.page-wrap .wrapper {
 .post-meta .item-author {
 	float: right;
 	margin-top: inherit;
+}
+
+.post-meta .item-author span {
+	display: inline-block;
+	margin-right: 4px;
 }
 
 /*---------------------------------
@@ -155,6 +160,11 @@ main.page-wrap .wrapper {
 	font-size: 30px;
 	font-weight: 700;
 	font-family: "Ubuntu","Helvetica","Helvetica Neue","Arial",sans-serif;
+}
+
+.sidebar .info-container h1 a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .sidebar .info-container .blog-description {
