@@ -195,10 +195,12 @@ nav.pagination p.page-number{
 
 nav.pagination .older-posts {
 	float: right;
+	margin-right: 20px;
 }
 
 nav.pagination .newer-posts {
 	float: left;
+	margin-left: 20px;
 }
 
 nav.pagination a {
@@ -291,15 +293,15 @@ nav.pagination a:hover {
 	}
 
 	.sidebar .info-container {
-		margin-top: -20px;
-		width: 80%;
+		margin-top: 0px;
+		width: 100%;
 		height: 250px;
 	}
 
 	.sidebar .info-container .image-holder {
 		float: left;
 		width: 120px;
-		margin: 0px 0px 0px 65px;
+		margin: 0px 0px 0px 30px;
 	}
 
 	.sidebar .info-container .image-holder img {
@@ -349,23 +351,51 @@ nav.pagination a:hover {
 
 @media (max-width: 480px) {
 
+	.sidebar {
+		height: 175px;
+	}
+
+	.sidebar .info-container {
+		margin-top: 30px;
+		height: 145px;
+	}
+
 	.sidebar .info-container .image-holder {
 		float: left;
 		width: 120px;
-		margin: 0px 0px 0px 40px;
+		margin: 0px 0px 0px 10px;
 	}
 
-	.sidebar .info-container h1 {
-		width: 200px;
+	.sidebar .info-container .title-desc {
+		float: left;
+		width: 180px;
+		max-height: 100px;
+		margin-left: 10px;
+	}
+
+	.sidebar .info-container .title-desc h1 {
+		width: 180px;
 		text-align: center;
-		margin: 65px 0px 0px 180px;
+		margin: 0px;
 	}
 
-	.sidebar .info-container .blog-description {
-		width: 200px;
+	.sidebar .info-container .title-desc .blog-description {
+		width: 180px;
 		padding: 0px 0%;
 		text-align: center;
-		margin-left: 180px;
+		margin: 0px;
+	}
+
+	.sidebar-background {
+		height: 175px;
+	}
+
+	main.page-wrap .wrapper {
+		max-width: 100% !important;
+		padding: 0 50px;
+		float: right;
+		position: absolute;
+		top: 175px;
 	}
 
 	nav.pagination {
